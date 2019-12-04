@@ -18,8 +18,9 @@ end
 
 def find_the_cheese(array) #??ask question to fully understand #this one??
    cheese_types = ["cheddar", "gouda", "camembert"]
-   array.find { |x| cheese_types.include?(x) }
-   binding.pry
+   array.find { |x| 
+   binding.pry cheese_types.include?(x) }
+   
 end  
 
 #this is another way to solve this method that i link_to_remotedef #find_the_cheese(array)
